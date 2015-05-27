@@ -1,0 +1,8 @@
+version: v1
+containers:
+- name: quoter
+  image: lynxbat/quoter
+  ports:
+  - name: http
+    hostPort: 8080
+    containerPort: 8080
